@@ -31,7 +31,8 @@
     line-height: 22px;
     margin-top: 6px;
 }
-.msgpp{
+
+.msgpp {
     font-size: 13px;
     width: 110%;
     color: #333333;
@@ -86,3 +87,119 @@
     right: 0px;
 }
 
+.Choice {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 360px 25px;
+}
+
+.main {
+    /* border: 2px dotted red; */
+    width: 64%;
+    padding-left: 50px;
+    margin: 0px auto 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.res {
+    width: 23%;
+    height: 200px
+}
+
+.res img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+
+.res a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(39, 38, 38);
+}
+.rat{
+    display: flex;
+}
+.rat_p{
+    margin: 10px 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.rat_s{
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.round {
+    border-radius: 50%;
+    background-color: #00AA6C;
+    width: 15px;
+    height: 15px;
+    margin: 10px 1px;
+}
+.circle {
+    border-radius: 50%;
+    /* background-color: #00AA6C; */
+    width: 15px;
+    height: 15px;
+    margin: 10px 1px;
+    border: 1px solid #00AA6C;
+    background: conic-gradient( white 0% 50%, #00AA6C 0% 50%);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 360px 25px;
+}
+.top_main{
+    width: 64%;
+    padding-left: 50px;
+    margin: 0px auto 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Chandigarh{
+    padding: 8px 10px;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer_h {
+margin-bottom: 24px;
+}
+.flexCols{
+    display: flex;
+    align-content:flex-start ;
+    flex-flow: column wrap;
+    margin-bottom: 55px;
+    height: 400px;
+}
+.item{
+    width: 33%;
+    padding: 4px 10px 4px 0px ;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.flexCols .item > a{
+    font-size: 14px;
+    line-height: 18px;
+}
+.ui_link{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer{
+    margin-left: 360px;
+}
+.sectionTitle{
+    font-weight: bold;
+    color: #8c8c8c;
+    font-size: 12px;
+    line-height: 16px;
+    white-space: normal;
+}
